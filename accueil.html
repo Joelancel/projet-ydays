@@ -7,34 +7,47 @@
     <meta name="keywords" content="Mot-clé , bla , bla" />
     <!-- permet de définir des mots clée a son site internet pour pouvoir le trouver -->
     <meta name="description" content="" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_accueil.css" />
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <a href="" title="HOME">
-            <img alt="texte alternatif" src="assets/Home.png" width="50" height="50" />
-        </a>
-        <a href="" title="PROFILE">
-            <img alt="texte alternatif" src="assets/profile.png" width="50" height="50" />
-        </a>
-        <a href="" title="search_animal">
+    <header class="HEADER">
+        <div class="flex-container">
+            <div class="HOME"><a href="" title="HOME">
+            <img alt="texte alternatif" src="assets/Home.png" width="40" height="40"/>
+        </a></div>
 
+        <div class="ANIME"><a href="page2.html" >Anime</a></div>
+
+       
+
+        <div class="SEARCH"><a href="" title="SEARCH">
             <img alt="texte alternatif" src="assets/search.png" width="25" height="25" />
-        </a>
-        <input id="searchbar" onkeyup="search_animal()" type="text"
-        name="search" placeholder="search anime, manga...">
-        <a href="Connexion.html" title="CONNEXION">
-        <button href="assets/Home.png" type="submit">connexion</button>
-    </a>
-    <a href="page2.html">Anime</a>
-    <a href="page2.html">News</a>
-        <img src="/assets/yeux_gojo.png" width="1520" height="500"/>
+        </a></div>
 
-        <section>
+        <div class="SEARCH_BAR"><input class="BAR"  id="searchbar" onkeyup="search_animal()" type="text"
+        name="search" aria-placeholder="" placeholder="Rechercher..."></div>
 
+        <div class="NEWS"><a href="page2.html">News</a></div>
+
+        <div class="PROFILE"><a href="" title="PROFILE">
+            <img alt="texte alternatif" src="assets/profile.png" width="40" height="40" />
+        </a></div>
+
+        <div class="CONNEXION"><a href="Connexion.html" title="CONNEXION">
+        <button class="BOUTTON-CONNEXION" "assets/Home.png" type="submit">connexion</button>
+    </a></div>
+</header>
+<div class="slider-container">
+    <div class="slider">
+        <p>SLIDE1</p>
+    </div>
+</div>
+        <section class="IMAGE">
+
+<h1>azeaze</h1>
         </section>
-    </header>
+   
     
 </body>
 </html>
