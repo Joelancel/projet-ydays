@@ -83,9 +83,48 @@ margin-left: 150px;
 
 .IMAGE {
     background-image: url('assets/yeux_gojo.png');
-    width: 1519px;
+    width: auto;
     height: 1000px;
-
     background-size: cover;
     background-position: center center;
+    display: flex;
 }
+
+.slide1 {
+max-width: 200px;
+margin: 100px auto;
+overflow:hidden ;
+}
+
+.slide1 .slider{
+    display: flex;
+    animation: slider-1 10s infinite ease-in-out;
+}
+
+.slider {
+    flex-shrink:0 ;
+    padding: 78px 0;
+    width: 100%;
+ }
+
+@keyframes slider-1 {
+    0%,
+    20% {
+      transform: translateX(0);
+    }
+    25%,
+    45% {
+      transform: translateX(-100%);
+    }
+    50%,
+    70% {
+      transform: translateX(-200%);
+    }
+    75%,
+    95% {
+      transform: translateX(-300%);
+    }
+    100% {
+      transform: translateX(-400%);
+    }
+  } 
