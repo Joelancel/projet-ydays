@@ -1,0 +1,91 @@
+body{
+    background-color: rgba(46, 45, 45, 0.364);
+    height: 100vh;
+    }
+     *{
+        margin: 0;
+        padding: 0;
+     }
+    .HEADER{
+        background-size: cover;
+        background-color: #1b1b1b;
+
+    }
+    
+    .flex-container {
+        display: flex;
+      }
+    
+    .HOME {
+        margin-left: 100px;
+    }
+    
+    .SEARCH {
+        margin-right: 10px;
+        margin-top: 12px;
+    margin-left: 150px;
+    
+    }
+    
+    .SEARCH_BAR{
+    margin-top: 10px;
+    }
+    
+    .BAR {
+        padding: 7px 0; /* Réduisez le rembourrage pour permettre la largeur complète */
+        background-color: rgb(52, 51, 51);
+        border-radius: 6px;
+        border: 10px;
+        width: calc(90% + 200px); /* La largeur est de 100% moins 30 pixels de chaque côté */
+        box-sizing: border-box;
+    }
+    
+    .BAR::placeholder {
+        color: rgb(177, 177, 177);
+      }
+    
+    .ANIME a,
+    .NEWS a {
+        color: rgb(175, 171, 175);
+        text-decoration: none;
+    }
+    
+    .NEWS {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+    margin-top: 10px;   
+    margin-left: 300px;
+    }
+    
+    
+    .ANIME {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+    margin-top: 10px;   
+    margin-left: 150px;
+    }
+    
+    .PROFILE {
+        margin-left: 150px;
+    }
+    
+    .CONNEXION {
+        margin-left: 150px;
+        text-decoration: none;
+    }
+    .BOUTTON-CONNEXION {
+        background-color: #cf200c;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    } 
+    .IMAGE {
+        background-image: url('assets/bprofile.png');
+        background-size: cover ;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    }
