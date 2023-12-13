@@ -107,10 +107,11 @@ body{
     }
     .main {
         background-color: rgba(156, 150, 150, 0.178);
-        padding: 20px 40px;
-        border-radius: 25px;
+        padding: 20px 30px;
+        border-radius: 20px;
         text-align: center;
-        margin-top: 123px;
+        margin-top: 130px;
+
     }
     .main input {
         width: 230px;
@@ -142,7 +143,7 @@ body{
     }
     
     .main span {
-        position: relative;
+        position: flex;
         color: #f50505;
         font-size: 14px;
         top: 5px;
