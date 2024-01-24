@@ -1,0 +1,198 @@
+body{
+    background-color: black;
+    height: 100vh;
+    }
+     *{
+        margin: 0;
+        padding: 0;
+     }
+    .HEADER{
+        background-size: cover;
+        background-color: #1b1b1b;
+
+    }
+    
+    .flex-container {
+        display: flex;
+      }
+    
+    .HOME {
+        margin-left: 100px;
+    }
+    
+    .SEARCH {
+        margin-right: 10px;
+        margin-top: 12px;
+    margin-left: 150px;
+    
+    }
+    
+    .SEARCH_BAR{
+    margin-top: 10px;
+    }
+    
+    .BAR {
+        padding: 7px 0; /* Réduisez le rembourrage pour permettre la largeur complète */
+        background-color: rgb(52, 51, 51);
+        border-radius: 6px;
+        border: 10px;
+        width: calc(90% + 200px); /* La largeur est de 100% moins 30 pixels de chaque côté */
+        box-sizing: border-box;
+    }
+    
+    .BAR::placeholder {
+        color: rgb(177, 177, 177);
+      }
+    
+    .ANIME a,
+    .NEWS a {
+        color: rgb(175, 171, 175);
+        text-decoration: none;
+    }
+    
+    .NEWS {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+    margin-top: 10px;   
+    margin-left: 300px;
+    }
+    
+    
+    .ANIME {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: large;
+    margin-top: 10px;   
+    margin-left: 150px;
+    }
+    
+    .PROFILE {
+        margin-left: 150px;
+    }
+    
+    .CONNEXION {
+        margin-left: 150px;
+        text-decoration: none;
+    }
+    .BOUTTON-CONNEXION {
+        background-color: #cf200c;
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+    } 
+    
+    .IMAGE {
+        background: url('assets/bleach.jpg');
+        background-size: cover ;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+    
+    }
+    .conterner {
+        width: 380px;
+        margin: auto;
+        border-radius: 25px;
+        background-color: rgba(0, 0, 0, 0);
+    }
+    .conterner h1 {
+        text-align: center;
+        color: white;
+        padding: 50px 0;
+        margin-bottom: auto;
+    
+    }
+    .main {
+        background-color: rgba(156, 150, 150, 0.178);
+        padding: 20px 40px;
+        border-radius: 25px;
+        text-align: center;
+        margin-top: 123px;
+    }
+    .main input {
+        width: 230px;
+        height: 30px;
+        border: none;
+        outline: none;
+        padding-left: 30px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #000000;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+    .main button {
+        padding-left: 6%;
+        background-color: rgb(68, 1, 250);
+        letter-spacing: 1px;
+        font-style: italic;
+        border-radius: 10px;
+        margin-top: 10px;
+
+    }
+    .main button:hover {
+        box-shadow: 2px 2px 5px #b10101;
+        background-color: rgba(234, 11, 11, 0.178);
+    }
+    .main input:hover {
+        box-shadow: 2px 2px 5px rgb(138,43,226);
+        
+    }
+    
+    .main span {
+        position: relative;
+        color: #f50505;
+        font-size: 14px;
+        top: 5px;
+
+    }
+    .main i {
+        position: absolute;
+        left: 15px;
+        width: 30px;
+        color: #333;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    .button-lien {
+        background-color: #160b02d9;
+        border: 0.2px solid #8f8f9d;
+        border-radius: 5px;
+        padding: 3px;
+        color: rgb(251, 251, 251);
+        width : 50%;
+        height: 70px;
+        margin-top: 490px;
+        margin-left: 500px;
+        font-family: 'Franklin Gothic Medium', 'Bold';
+        font-size: taller;
+        text-align: center;
+        text-decoration: none;
+        cursor: default;
+    }
+
+    .text-button{
+        font-size: x-large;
+    }
+    .button-lien2 {
+        background-color: #6605b5ec;
+        border: 0.2px solid #8f8f9d;
+        border-radius: 5px;
+        padding: 3px;
+        color: rgba(0, 0, 0, 0.992);
+        width : 50%;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 500px;
+        font-family: 'Franklin Gothic Medium', 'Bold';
+        font-size: taller;
+        text-align: center;
+        text-decoration: none;
+        cursor: default;
+    }
