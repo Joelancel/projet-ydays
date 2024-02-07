@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/sds.png');
+        background: url('/assets/sds.png');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;

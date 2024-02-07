@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/bleach.jpg');
+        background: url('/assets/mob.jpg');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;
@@ -161,7 +161,7 @@ body{
 
 
     .button-lien {
-        background-color: #160b02d9;
+        background-color: #e96c06d9;
         border: 0.2px solid #8f8f9d;
         border-radius: 5px;
         padding: 3px;

@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/back-cover.webp');
+        background: url('/assets/jjk.webp');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;

@@ -85,7 +85,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/connexion.png');
+        background: url('/assets/connexion.png');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;

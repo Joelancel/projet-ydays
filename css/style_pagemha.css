@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/demonslayer.jpg');
+        background: url('/assets/mha.webp');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;
@@ -161,11 +161,11 @@ body{
 
 
     .button-lien {
-        background-color: #e96c06d9;
+        background-color: #db6403ee;
         border: 0.2px solid #8f8f9d;
         border-radius: 5px;
         padding: 3px;
-        color: rgb(251, 251, 251);
+        color: rgb(255, 255, 255);
         width : 50%;
         height: 70px;
         margin-top: 490px;
@@ -181,11 +181,11 @@ body{
         font-size: x-large;
     }
     .button-lien2 {
-        background-color: #6605b5ec;
+        background-color: #000000ec;
         border: 0.2px solid #8f8f9d;
         border-radius: 5px;
         padding: 3px;
-        color: rgba(0, 0, 0, 0.992);
+        color: rgba(255, 255, 255, 0.992);
         width : 50%;
         height: 70px;
         margin-top: 10px;

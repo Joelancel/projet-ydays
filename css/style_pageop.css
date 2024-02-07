@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/fire-force.jpg');
+        background: url('/assets/one-piece.jpeg');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;
@@ -186,6 +186,22 @@ body{
         border-radius: 5px;
         padding: 3px;
         color: rgba(0, 0, 0, 0.992);
+        width : 50%;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 500px;
+        font-family: 'Franklin Gothic Medium', 'Bold';
+        font-size: taller;
+        text-align: center;
+        text-decoration: none;
+        cursor: default;
+    }
+    .button-lien3 {
+        background-color: #1504afec;
+        border: 0.2px solid #8f8f9d;
+        border-radius: 5px;
+        padding: 3px;
+        color: rgba(255, 255, 255, 0.992);
         width : 50%;
         height: 70px;
         margin-top: 10px;

@@ -84,7 +84,7 @@ body{
     } 
     
     .IMAGE {
-        background: url('assets/dr_stone.webp');
+        background: url('/assets/fire-force.jpg');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;

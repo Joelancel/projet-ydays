@@ -83,7 +83,7 @@ body{
         cursor: pointer;
     } 
     .IMAGE {
-        background-image: url('assets/bprofile.png');
+        background-image: url('/assets/bprofile.png');
         background-size: cover ;
         background-repeat: no-repeat;
         background-position: center;
